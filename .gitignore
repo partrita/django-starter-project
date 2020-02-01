@@ -6,13 +6,17 @@ logs
 media
 
 # Database files
-.sqlite3
+*.sqlite3
+*.rdb
 
 # Environment variables
 .env
-.env.*
+.env.docker
 
 # Static files
 assets/node_modules
 assets/bundles/webpack-bundle.dev.json
 assets/bundles/dev
+
+# IDE config
+.vscode
